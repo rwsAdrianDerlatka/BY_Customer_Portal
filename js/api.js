@@ -4,6 +4,7 @@ console.log("test")
 
 fetch(byLogin, {
     method:"POST",
+    mode: "cors",
     headers: {
         "Content-Type": "application/json"
     },
