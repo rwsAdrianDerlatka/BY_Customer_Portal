@@ -6,8 +6,8 @@ fetch(byLogin, {
     method:"POST",
     mode: "cors",
     headers: {
-        "Content-Type": "application/json",
-        `Access-Control-Allow-Origin`: "https://app-dev-350.backend.bywms.rhenus.com:21600/api/platform/login"
+        "Content-Type": "application/json"
+       
     },
     body: JSON.stringify({
         userId: "adrian.derlatka",
