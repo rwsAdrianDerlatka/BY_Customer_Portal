@@ -1,7 +1,5 @@
 const byLogin="https://app-dev-350.backend.bywms.rhenus.com:21600/api/platform/login";
 
-console.log("test")
-
 fetch(byLogin, {
     method:"POST",
     mode: "cors",
@@ -14,3 +12,6 @@ fetch(byLogin, {
     }),
 }
 );
+
+console.log("test");
+
