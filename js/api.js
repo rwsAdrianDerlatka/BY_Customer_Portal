@@ -3,9 +3,9 @@ const byLogin="https://app-dev-350.backend.bywms.rhenus.com:21600/api/platform/l
 fetch(byLogin, {
     method:"POST",
     mode: "cors",
+    "Access-Control-Allow-Origin": "https://app-dev-350.backend.bywms.rhenus.com:21600/api/platform/login", 
     headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "https://app-dev-350.backend.bywms.rhenus.com:21600/api/platform/login"   
+        "Content-Type": "application/json"          
     },
     body: JSON.stringify({
         userId: "adrian.derlatka",
